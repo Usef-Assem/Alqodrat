@@ -1,0 +1,75 @@
+.navbar {
+  background: #FFFFFF; /* Match the Home component's background */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 1rem 0; /* Add padding for better spacing */
+}
+
+.logo {
+  width: 100px; /* Adjust logo size */
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.logo:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.navLink {
+  color: #2C3E50 !important; /* Dark blue-gray for contrast */
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navLink:hover {
+  color: #DCA397 !important; /* Accent color on hover */
+}
+
+.LoginBtn {
+  background-color: transparent;
+  color: #2C3E50 !important; /* Dark blue-gray for contrast */
+  border: 2px solid #DCA397 !important; /* Accent border */
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 20px;
+  transition: all 0.3s ease !important;
+}
+
+.LoginBtn:hover {
+  background-color: #DCA397 !important; /* Accent color on hover */
+  color: #FFFFFF !important; /* White text on hover */
+}
+
+.RegisterBtn {
+  background-color: #DCA397 !important; /* Primary button color */
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 8px 20px;
+  transition: all 0.3s ease;
+}
+
+.RegisterBtn:hover {
+  background-color: #C98E84 !important; /* Darker shade on hover */
+  box-shadow: 0 4px 15px rgba(220, 163, 151, 0.5) !important; /* Glow effect */
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem 0; /* Reduce padding for mobile */
+  }
+
+  .logo {
+    width: 80px; /* Smaller logo for mobile */
+  }
+
+  .navLink {
+    font-size: 16px; /* Smaller font size for mobile */
+  }
+
+  .LoginBtn,
+  .RegisterBtn {
+    font-size: 14px;
+    padding: 6px 15px;
+  }
+}

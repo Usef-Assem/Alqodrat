@@ -1,0 +1,66 @@
+.Register {
+    background: linear-gradient(180deg, #F5E9E6, #FFFFFF); /* Match the Home component's gradient */
+    min-height: 100vh;
+  }
+  
+  .authCard {
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Blur effect for depth */
+    border: 1px solid rgba(220, 163, 151, 0.2); /* Subtle border */
+  }
+  
+  .authTitle {
+    color: #2C3E50; /* Dark blue-gray for contrast */
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  
+  .authInput {
+    background: rgba(255, 255, 255, 0.8); /* Semi-transparent input background */
+    border: 1px solid rgba(220, 163, 151, 0.3); /* Subtle border */
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+  }
+  
+  .authInput:focus {
+    border-color: #DCA397; /* Accent border on focus */
+    box-shadow: 0 0 8px rgba(220, 163, 151, 0.3); /* Glow effect on focus */
+  }
+  
+  .errorAlert {
+    background: rgba(255, 0, 0, 0.1); /* Light red background for errors */
+    border: 1px solid rgba(255, 0, 0, 0.2);
+    color: #D32F2F; /* Dark red text */
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 8px;
+  }
+  
+  .authButton {
+    background-color: #DCA397 !important; /* Primary button color */
+    color: #FFFFFF !important;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .authButton:hover {
+    background-color: #C98E84 !important; /* Darker shade on hover */
+    box-shadow: 0 4px 15px rgba(220, 163, 151, 0.5) !important; /* Glow effect */
+  }
+  
+  .authLink {
+    color: #DCA397; /* Accent color for links */
+    text-decoration: none;
+    font-weight: 600;
+    transition: color 0.3s ease;
+  }
+  
+  .authLink:hover {
+    color: #C98E84; /* Darker shade on hover */
+  }
