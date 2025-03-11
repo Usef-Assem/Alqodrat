@@ -97,11 +97,11 @@ function Lessons() {
               {subjectData.youtubeUrls.length > 0 ? (
                 <div className="d-flex flex-wrap justify-content-center gap-4">
                   {subjectData.youtubeUrls.map((video, index) => (
-                    <div key={index} className="card" style={{ width: '18rem' }}>
-                      <img src={YouTube} className="card-img-top" alt="YouTube" />
+                    <div key={index} className="card py-3" style={{ width: '18rem' }}>
+                      {/* <img src={YouTube} className="card-img-top" alt="YouTube" /> */}
                       <div className="card-body">
                         <h5 className="card-title text-center">{video.description}</h5>
-                        <a href={video.url} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-100 mt-2">
+                        <a href={video.url} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-100 mt-5">
                           شاهد الحصة
                         </a>
                       </div>
@@ -121,11 +121,11 @@ function Lessons() {
               {subjectData.googleDriveUrls.length > 0 ? (
                 <div className="d-flex flex-wrap justify-content-center gap-4">
                   {subjectData.googleDriveUrls.map((drive, index) => (
-                    <div key={index} className="card" style={{ width: '18rem' }}>
-                      <img src={GoogleDrive} className="card-img-top" alt="Google Drive" />
+                    <div key={index} className="card py-3" style={{ width: '18rem' }}>
+                      {/* <img src={GoogleDrive} className="card-img-top" alt="Google Drive" /> */}
                       <div className="card-body">
                         <h5 className="card-title text-center">{drive.description}</h5>
-                        <a href={drive.url} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-100 mt-2">
+                        <a href={drive.url} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-100 mt-5">
                           عرض الملزمة
                         </a>
                       </div>
@@ -145,11 +145,11 @@ function Lessons() {
               {subjectData.googleFormUrls.length > 0 ? (
                 <div className="d-flex flex-wrap justify-content-center gap-4">
                   {subjectData.googleFormUrls.map((form, index) => (
-                    <div key={index} className="card" style={{ width: '18rem' }}>
-                      <img src={GoogleForm} className="card-img-top" alt="Google Form" />
+                    <div key={index} className="card py-3" style={{ width: '18rem' }}>
+                      {/* <img src={GoogleForm} className="card-img-top" alt="Google Form" /> */}
                       <div className="card-body">
                         <h5 className="card-title text-center">{form.description}</h5>
-                        <a href={form.url} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-100 mt-2">
+                        <a href={form.url} target="_blank" rel="noopener noreferrer" className="btn btn-primary w-100 mt-5">
                           ابدأ الامتحان
                         </a>
                       </div>
